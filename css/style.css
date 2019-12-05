@@ -1,0 +1,59 @@
+
+.bd-placeholder-img{
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+@media (min-width: 768px){
+  .bd.bd-placeholder-img-lg{
+    font-size: 3.5rem;
+  }
+}
+.card-deck{
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-image:url("background_v5.jpg");
+}
+
+footer{
+  text-decoration-style: solid;
+  text-decoration-color: white;
+}
+Ul{
+  text-align: center;
+}
+a{
+  color: white;
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: 400px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1;
+}
+
+div.carousel-slide{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}

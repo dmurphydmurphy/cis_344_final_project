@@ -1,0 +1,149 @@
+<!------------------------------------------
+Name: DIllard Murphy
+Course: CIS-376
+Project: Final
+Date: 12/4/2019
+Title: Software Consulting Website Revamp
+------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>James Jerkins Computer Consulting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="/js/rotate.js"></script>>
+
+</head>
+
+<!-- partial:index.partial.html -->
+<body>
+  <!-- Header bar with links and dropdowns -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Project Links</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://www.jamesjerkinscomputer.com/" target="_blank">Old Home Page</a>
+            <a class="dropdown-item" href="https://www.jamesjerkinscomputer.com/contact.html" target="_blank">Old Contact Page</a>
+            <a class="dropdown-item" href="#">Repo</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <main role="main">
+
+    <!--carousel with three images rotating every so often-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img\pink.jpg" alt="First Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img\pink_v2.jpg" alt="Second Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img\pink_v3.jpg" alt="Third Slide">
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+      <!-- divider.jumbotron to divide the darker image with more lighter ones -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">James Jerkins Computer Consulting</h1>
+          <p>Providing advanced security and information technology consulting services to
+            business and institutions. Information System Security Design, Implementation,
+            Compliance Verification, Network Design, Implementation, Maintenance, On-site
+            Information Security, Networking Training, Contract Programming, Custom Application
+            Development, and Technical Project Management</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+<!-- start of container for card-deck class  -->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img\services_v2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Services</h5>
+            <p class="card-text">Dr. Jerkins has over 30 years of experience in cyber security, enterprise networking, and Internet systems. We provide expert, cost effective, reliable solutions to help our customers realize their IT enterprise vision. Our goal is to establish our customers as leaders in the successful implementation of Information Technology.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img\software_v2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Software</h5>
+            <p class="card-text">Using a goal-oriented software development strategy, we design, test, implement, and maintain custom software projects on a variety of contemporary unix-like platforms. We have over 30 years of experience delivering software that is designed to meet your expectations. Contact us today for more information about custom development.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
+          </div>
+
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img\profile_v2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Company Profile</h5>
+            <p class="card-text">Started in 1988, James Jerkins Computer Consulting specializes in securely integrating information technology into business and institutional processes. We are specially trained to analyze the constraints and demands that make each information system unique and to design and implement an overall strategy to enhance productivity and improve efficiency.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+<!--  End of container for card-deck class -->
+
+<!-- footer with three "links"-->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul>
+            <li>
+              <a href="#">Copyright 1989 - 2019 © James A. Jerkins</a>
+              </li>
+            <li>
+                <a href="#">Terms and Conditions</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+      </div>
+    </footer>
+</body>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js'></script>
+
+
+</html>
